@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f3f5f0">
+    <meta name="description" content="Rohan Jaggannagari is a data engineer building reliable, open data platforms and cloud infrastructure.">
+    <meta property="og:title" content="Rohan Jaggannagari | Data Engineer">
+    <meta property="og:description" content="Open data platforms, cloud infrastructure, and systems built to be dependable.">
+    <meta property="og:type" content="website">
+    <title>Rohan Jaggannagari | Data Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Rohan Jaggannagari, home">RJ<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#experience">Experience</a><a href="#work">Projects</a><a href="#toolkit">Skills</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-wrap" id="top" aria-labelledby="intro-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> DATA ENGINEER <span class="eyebrow-divider">/</span> DURHAM, NC</p>
+          <h1 id="intro-title">Rohan<br><span>Jaggannagari</span></h1>
+          <p class="hero-lede">Data engineer at Fidelity, working on open lakehouse platforms and cloud infrastructure.</p>
+          <div class="hero-actions"><a class="button button-dark" href="#experience">View experience <span aria-hidden="true">↓</span></a><a class="text-link" href="mailto:jaggannagarir@gmail.com">Email me <span aria-hidden="true">↗</span></a></div>
+          <p class="current-role"><span class="current-mark" aria-hidden="true"></span> Currently building at <strong>Fidelity Investments</strong></p>
+        </div>
+      </section>
+
+      <section class="experience section-wrap section-block" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading reveal"><p class="section-kicker">EXPERIENCE</p><h2 id="experience-title">Experience</h2><p class="section-intro">Fidelity Investments, June 2023–present.</p></div>
+        <div class="experience-list">
+          <article class="experience-entry reveal">
+            <div class="entry-date"><span>JUL 2025 — NOW</span><span class="entry-pin" aria-hidden="true"></span></div>
+            <div class="entry-content"><div class="entry-title"><h3>Data Engineer</h3><span>Fidelity Investments</span></div>
+              <p>Evaluating and operating open data platform infrastructure across catalogs, engines, and cloud-native services.</p>
+              <ul><li>Compared five data catalogs across governance, interoperability, and operational complexity to inform platform adoption.</li><li>Deployed two Dremio instances on AWS EKS with SSO and EKS Pod Identity; supported 10+ associates across two teams.</li><li>Built a Helm deployment and OIDC/OAuth 2.0 integration for an Apache Polaris proof of concept; migrated 50+ tables.</li><li>Created automated tests for Iceberg ACID guarantees, schema evolution, and time travel.</li></ul>
+              <div class="entry-tags"><span>AWS EKS</span><span>Apache Iceberg</span><span>Apache Polaris</span><span>Kafka</span></div>
+            </div>
+          </article>
+          <article class="experience-entry reveal">
+            <div class="entry-date"><span>JUN 2024 — JUN 2025</span><span class="entry-pin" aria-hidden="true"></span></div>
+            <div class="entry-content"><div class="entry-title"><h3>Associate Data Engineer</h3><span>Fidelity Investments</span></div>
+              <p>Built core components of a scalable open lakehouse on AWS EKS, decoupling storage and compute with Apache Iceberg.</p>
+              <ul><li>Deployed Dremio, Project Nessie, and Trino with Helm to demonstrate multi-engine interoperability.</li><li>Configured HTTPS ingress and Kubernetes HPA for secure access and horizontal scaling.</li><li>Automated Apache NiFi delivery with Camunda BPMN and Jenkins, reducing deployment time by 75%.</li></ul>
+              <div class="entry-tags"><span>Kubernetes</span><span>Helm</span><span>Project Nessie</span><span>Jenkins</span></div>
+            </div>
+          </article>
+          <article class="experience-entry reveal">
+            <div class="entry-date"><span>JUN 2023 — AUG 2023</span><span class="entry-pin" aria-hidden="true"></span></div>
+            <div class="entry-content"><div class="entry-title"><h3>Data Engineering Intern</h3><span>Fidelity Investments</span></div>
+              <p>Automated cloud compliance, database provisioning, and Oracle GoldenGate monitoring.</p>
+              <ul><li>Delivered weekly EC2 and RDS compliance alerts with CloudFormation, Lambda, CloudWatch, and EventBridge.</li><li>Cut GoldenGate downtime by 95% with a Python monitor and real-time alerts.</li><li>Tripled provisioning efficiency with reusable templates for Aurora PostgreSQL, PostgreSQL, and Oracle.</li></ul>
+              <div class="entry-tags"><span>Python</span><span>AWS</span><span>CloudFormation</span><span>Oracle</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="work section-block" id="work" aria-labelledby="work-title">
+        <div class="section-wrap">
+          <div class="work-heading reveal"><div><p class="section-kicker">PROJECTS</p><h2 id="work-title">Selected projects</h2></div><p class="section-intro">Independent, academic, and student-team projects across machine learning, autonomous systems, and mobile development.</p></div>
+          <div class="project-grid">
+            <article class="project reveal">
+              <div class="project-meta"><span>AUTONOMOUS SYSTEMS</span><span>VIRGINIA TECH</span></div><h3>Hokie Electric Vehicle Team</h3><p>Developed vehicle behavior models from CAN signals and an automated parking system using MATLAB image detection for hybrid-control simulations.</p><div class="project-tags"><span>MATLAB</span><span>CAN DATA</span><span>CONTROL SYSTEMS</span></div>
+            </article>
+            <article class="project reveal">
+              <div class="project-meta"><span>MACHINE LEARNING</span><span>CLASSIFICATION</span></div><h3>Phishing URL detection</h3><p>Compared 11 supervised learning models using accuracy and runtime, then built a pipeline to classify URLs from submitted links.</p><div class="project-tags"><span>SCIKIT-LEARN</span><span>PYTHON</span><span>MODEL EVALUATION</span></div>
+            </article>
+            <article class="project reveal">
+              <div class="project-meta"><span>MOBILE APPLICATION</span><span>TEAM PROJECT</span></div><h3>Phitnest</h3><p>Contributed backend features to a Flutter fitness app and resolved UI/UX issues to improve usability and stability.</p><div class="project-tags"><span>FLUTTER</span><span>BACKEND</span><span>PRODUCT UX</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="toolkit section-wrap section-block" id="toolkit" aria-labelledby="toolkit-title">
+        <div class="toolkit-heading reveal"><p class="section-kicker">SKILLS</p><h2 id="toolkit-title">Technical skills</h2></div>
+        <div class="toolkit-list">
+          <div class="toolkit-row reveal"><h3>Languages</h3><p>Python, SQL, Java, JavaScript, C/C++, PowerShell</p></div>
+          <div class="toolkit-row reveal"><h3>Libraries &amp; frameworks</h3><p>NumPy, Pandas, PySpark, Node.js, React, scikit-learn, Matplotlib, Boto3, Flask</p></div>
+          <div class="toolkit-row reveal"><h3>Cloud &amp; infrastructure</h3><p>AWS, Azure, Docker, Kubernetes, Helm, Kafka, Spark</p></div>
+          <div class="toolkit-row reveal"><h3>DevOps &amp; tools</h3><p>Jenkins, Git, Camunda, Linux, Datadog, Jupyter</p></div>
+        </div>
+      </section>
+
+      <section class="education-publication" aria-label="Education and publication"><div class="section-wrap credentials-grid">
+        <article class="credential reveal"><p class="section-kicker">EDUCATION</p><h2>Virginia Tech</h2><p>B.S. in Computer Science</p><span class="credential-detail">BLACKSBURG, VA <i></i> 2020 — 2024</span></article>
+        <article class="credential publication reveal"><p class="section-kicker">PUBLICATION</p><p class="publication-title">System Design and Validation of a Decentralized Automated Vehicle Compute System for Energy Efficiency</p><p class="publication-citation">Kothari, A., Gerdes, R., Billington, T., &amp; Jaggannagari, R. <span>IEEE IAVVC, 2023</span></p></article>
+      </div></section>
+
+      <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy reveal"><p class="section-kicker">CONTACT</p><h2 id="contact-title">Get in touch</h2></div>
+        <div class="contact-links reveal"><a class="contact-email" href="mailto:jaggannagarir@gmail.com">jaggannagarir@gmail.com <span aria-hidden="true">↗</span></a><a href="tel:+15715771526">+1 571 577 1526 <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/rjaggannagari" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/rohanjaggannagari" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+      </section>
+    </main>
+    <footer class="site-footer section-wrap"><a class="wordmark" href="#top" aria-label="Back to top">RJ<span>.</span></a><p>&copy; <span id="year">2026</span> Rohan Jaggannagari</p><a href="#top" class="back-top">BACK TO TOP <span aria-hidden="true">↑</span></a></footer>
+  </body>
+</html>
