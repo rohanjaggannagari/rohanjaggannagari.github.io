@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rohan Jaggannagari · Data Engineer</title>
-  <meta name="description" content="Rohan Jaggannagari is a data engineer at Fidelity Investments building open data lakehouse platforms with Apache Iceberg, Dremio, and Kubernetes on AWS.">
+  <meta name="description" content="Rohan Jaggannagari is a data engineer at Fidelity Investments building scalable, efficient data platforms on Kubernetes and AWS.">
   <meta name="author" content="Rohan Jaggannagari">
   <meta name="theme-color" content="#0b0f17">
   <link rel="canonical" href="https://rohanjaggannagari.github.io/">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="Rohan Jaggannagari · Data Engineer">
-  <meta property="og:description" content="Data engineer building open data lakehouse platforms with Apache Iceberg, Dremio, and Kubernetes on AWS.">
+  <meta property="og:description" content="Data engineer building scalable, efficient data platforms on Kubernetes and AWS.">
   <meta property="og:url" content="https://rohanjaggannagari.github.io/">
   <meta name="twitter:card" content="summary">
 
@@ -45,15 +45,15 @@
     "url": "https://rohanjaggannagari.github.io/",
     "sameAs": [
       "https://linkedin.com/in/rjaggannagari",
-      "https://github.com/rjaggannagari"
+      "https://github.com/rohanjaggannagari"
     ]
   }
   </script>
 </head>
-<body>
+<body id="top">
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header" id="top">
+  <header class="site-header">
     <nav class="nav container" aria-label="Primary">
       <a class="brand" href="#top" aria-label="Rohan Jaggannagari, back to top">
         <span class="brand-mark">RJ</span>
@@ -68,6 +68,7 @@
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#publication">Publication</a></li>
         <li><a href="#contact">Contact</a></li>
         <li>
@@ -85,11 +86,11 @@
     <section class="hero container">
       <div class="hero-copy">
         <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Data Engineer at Fidelity Investments</p>
-        <h1>I build open data lakehouse platforms that don't lock you in.</h1>
+        <h1>I build data platforms that scale, and stay efficient while they do.</h1>
         <p class="lede">
-          I'm Rohan, a data engineer in Durham, NC. I work on the platform layer of the lakehouse:
-          Apache Iceberg catalogs, query engines like Dremio and Trino, and the Kubernetes
-          infrastructure on AWS that runs them.
+          I'm Rohan, a data engineer in Durham, NC. I work with the platform layer behind
+          enterprise data: query engines, catalogs, and the Kubernetes infrastructure on AWS
+          that runs them, with a focus on automation, scalability, and low operational overhead.
         </p>
         <div class="cta-row">
           <a class="btn btn-primary" href="mailto:jaggannagarir@gmail.com">Get in touch</a>
@@ -121,34 +122,12 @@
       </div>
     </section>
 
-    <!-- Impact -->
-    <section class="container" aria-label="Impact highlights">
-      <ul class="stats">
-        <li class="reveal">
-          <strong>75%</strong>
-          <span>faster Apache NiFi deployments through automated delivery pipelines</span>
-        </li>
-        <li class="reveal">
-          <strong>95%</strong>
-          <span>less Oracle GoldenGate downtime with real-time monitoring alerts</span>
-        </li>
-        <li class="reveal">
-          <strong>3×</strong>
-          <span>database provisioning efficiency from reusable CloudFormation templates</span>
-        </li>
-        <li class="reveal">
-          <strong>5</strong>
-          <span>Iceberg catalogs evaluated to guide platform adoption decisions</span>
-        </li>
-      </ul>
-    </section>
-
     <!-- Experience -->
     <section class="section container" id="experience">
       <header class="section-head reveal">
         <p class="section-label">01 · Experience</p>
         <h2>Three roles at Fidelity Investments</h2>
-        <p class="section-sub">From an internship automating compliance checks to evaluating the catalogs behind an enterprise lakehouse.</p>
+        <p class="section-sub">From automating cloud compliance and database provisioning to building and evaluating the platforms behind enterprise data.</p>
       </header>
 
       <ol class="timeline">
@@ -161,13 +140,13 @@
             <h3>Data Engineer</h3>
             <p class="role-org">Fidelity Investments</p>
             <ul>
-              <li>Evaluated 5 catalogs (Databricks Unity, Apache Polaris, Dremio Open Catalog, Snowflake Open Catalog, AWS Glue) across governance, interoperability, and operational complexity to guide platform adoption decisions.</li>
               <li>Deployed and configured 2 enterprise Dremio instances on AWS EKS using SSO and EKS Pod Identity, while supporting 10+ associates across 2 teams and contributing to Spark, GoldenGate, and Kafka integrations.</li>
+              <li>Evaluated 5 catalogs (Databricks Unity, Apache Polaris, Dremio Open Catalog, Snowflake Open Catalog, AWS Glue) across governance, interoperability, and operational complexity to guide platform adoption decisions.</li>
               <li>Contributed to an Apache Polaris POC by building the Helm deployment, integrating OIDC/OAuth 2.0, and migrating 50+ tables from Dremio Open Catalog to validate platform readiness.</li>
-              <li>Validated Iceberg catalog ACID guarantees and lifecycle behaviors such as schema evolution and time travel through a custom automated framework.</li>
+              <li>Built a custom automated framework to validate catalog behavior, including ACID guarantees, schema evolution, and time travel.</li>
             </ul>
             <ul class="tags" aria-label="Technologies">
-              <li>Apache Iceberg</li><li>Apache Polaris</li><li>Dremio</li><li>AWS EKS</li><li>Helm</li><li>OIDC / OAuth 2.0</li>
+              <li>AWS EKS</li><li>Helm</li><li>Dremio</li><li>Apache Polaris</li><li>OIDC / OAuth 2.0</li><li>Apache Iceberg</li>
             </ul>
           </div>
         </li>
@@ -181,13 +160,13 @@
             <h3>Associate Data Engineer</h3>
             <p class="role-org">Fidelity Investments</p>
             <ul>
-              <li>Built core components of a scalable open data lakehouse on AWS EKS using Apache Iceberg, implementing microservices to decouple storage and compute and eliminate vendor lock-in.</li>
-              <li>Enabled secure external access and horizontal scalability for the lakehouse platform by configuring HTTPS ingress and Kubernetes HPA, keeping it stable under variable workloads.</li>
-              <li>Deployed Dremio and Project Nessie on Kubernetes via Helm to demonstrate multi-engine interoperability against a single catalog, with a separate Trino deployment to broaden compute coverage.</li>
               <li>Reduced Apache NiFi deployment time by 75% by automating delivery pipelines with Camunda BPMN and Jenkins.</li>
+              <li>Built core components of a scalable data platform on AWS EKS, implementing microservices to decouple storage and compute and eliminate vendor lock-in.</li>
+              <li>Enabled secure external access and horizontal scalability by configuring HTTPS ingress and Kubernetes HPA, keeping the platform stable under variable workloads.</li>
+              <li>Deployed Dremio and Project Nessie on Kubernetes via Helm to demonstrate multi-engine interoperability against a single catalog, with a separate Trino deployment to broaden compute coverage.</li>
             </ul>
             <ul class="tags" aria-label="Technologies">
-              <li>Apache Iceberg</li><li>Kubernetes</li><li>Project Nessie</li><li>Trino</li><li>Apache NiFi</li><li>Camunda</li><li>Jenkins</li>
+              <li>Kubernetes</li><li>Apache NiFi</li><li>Camunda</li><li>Jenkins</li><li>Trino</li><li>Project Nessie</li><li>Apache Iceberg</li>
             </ul>
           </div>
         </li>
@@ -217,29 +196,31 @@
     <section class="section container" id="projects">
       <header class="section-head reveal">
         <p class="section-label">02 · Projects</p>
-        <h2>Work outside the day job</h2>
+        <h2>Team and capstone projects</h2>
       </header>
 
       <div class="cards">
         <article class="card reveal">
-          <p class="card-kicker">Autonomous vehicles</p>
-          <h3>Hokie Electric Vehicle Team</h3>
-          <p>Developed vehicle behavior models from CAN signal data and an automated parking system using MATLAB image detection, supporting ML-driven hybrid control and autonomous driving simulations.</p>
+          <p class="card-kicker">Virginia Tech student team</p>
+          <h3>Hybrid Electric Vehicle Team (HEVT)</h3>
+          <p>Student engineering team that re-engineers production cars for efficiency and autonomy in the DOE's EcoCAR competitions.</p>
+          <p>My part: vehicle behavior models from CAN signal data and an automated parking system using MATLAB image detection, supporting ML-driven hybrid control and autonomous driving simulations.</p>
           <ul class="tags"><li>MATLAB</li><li>CAN</li><li>Computer vision</li></ul>
         </article>
 
         <article class="card reveal">
-          <p class="card-kicker">Machine learning</p>
-          <h3>Phishing URL Detection</h3>
-          <p>Evaluated 11 supervised ML models on accuracy and runtime, then built a pipeline that predicts whether an input link is malicious.</p>
-          <ul class="tags"><li>Python</li><li>Scikit-learn</li><li>Pandas</li></ul>
+          <p class="card-kicker">Team project</p>
+          <h3>Phitnest</h3>
+          <p>A Flutter-based fitness app built by a small team.</p>
+          <p>My part: backend features and UI/UX fixes that improved usability and stability.</p>
+          <ul class="tags"><li>Flutter</li><li>Backend</li><li>UI/UX</li></ul>
         </article>
 
         <article class="card reveal">
-          <p class="card-kicker">Mobile</p>
-          <h3>Phitnest</h3>
-          <p>Contributed to a Flutter-based fitness app by developing backend features and resolving UI/UX issues, improving usability and stability.</p>
-          <ul class="tags"><li>Flutter</li><li>Backend</li><li>UI/UX</li></ul>
+          <p class="card-kicker">Capstone project</p>
+          <h3>Phishing URL Detection</h3>
+          <p>Compared 11 supervised ML models on accuracy and runtime, then built a pipeline that flags malicious links.</p>
+          <ul class="tags"><li>Python</li><li>Scikit-learn</li><li>Pandas</li></ul>
         </article>
       </div>
     </section>
@@ -279,38 +260,50 @@
       </div>
     </section>
 
-    <!-- Publication + Education -->
-    <section class="section container" id="publication">
+    <!-- Education -->
+    <section class="section container" id="education">
       <header class="section-head reveal">
-        <p class="section-label">04 · Publication &amp; Education</p>
-        <h2>Research and background</h2>
+        <p class="section-label">04 · Education</p>
+        <h2>Where I studied</h2>
       </header>
 
-      <div class="split">
-        <article class="card reveal">
-          <p class="card-kicker">IEEE IAVVC · October 2023</p>
-          <h3>System Design and Validation of a Decentralized Automated Vehicle Compute System for Energy Efficiency</h3>
-          <p class="cite">
-            Kothari, A., Gerdes, R., Billington, T., &amp; <strong>Jaggannagari, R.</strong>
-            In <em>2023 IEEE International Automated Vehicle Validation Conference (IAVVC)</em>, pp. 1–5. IEEE.
-          </p>
-        </article>
+      <article class="edu reveal">
+        <div class="edu-mark" aria-hidden="true">VT</div>
+        <div class="edu-body">
+          <h3>Virginia Tech</h3>
+          <p class="edu-full">Virginia Polytechnic Institute and State University</p>
+          <p class="edu-degree">B.S. in Computer Science</p>
+        </div>
+        <dl class="edu-meta">
+          <div><dt>Attended</dt><dd>August 2020 – May 2024</dd></div>
+          <div><dt>Location</dt><dd>Blacksburg, VA</dd></div>
+        </dl>
+      </article>
+    </section>
 
-        <article class="card reveal">
-          <p class="card-kicker">August 2020 – May 2024</p>
-          <h3>B.S. in Computer Science</h3>
-          <p>Virginia Polytechnic Institute and State University (Virginia Tech)</p>
-          <p class="cite">Blacksburg, VA</p>
-        </article>
-      </div>
+    <!-- Publication -->
+    <section class="section container" id="publication">
+      <header class="section-head reveal">
+        <p class="section-label">05 · Publication</p>
+        <h2>Published research</h2>
+      </header>
+
+      <article class="card reveal">
+        <p class="card-kicker">IEEE IAVVC · October 2023</p>
+        <h3>System Design and Validation of a Decentralized Automated Vehicle Compute System for Energy Efficiency</h3>
+        <p class="cite">
+          Kothari, A., Gerdes, R., Billington, T., &amp; <strong>Jaggannagari, R.</strong>
+          In <em>2023 IEEE International Automated Vehicle Validation Conference (IAVVC)</em>, pp. 1–5. IEEE.
+        </p>
+      </article>
     </section>
 
     <!-- Contact -->
     <section class="section container" id="contact">
       <div class="contact reveal">
-        <p class="section-label">05 · Contact</p>
+        <p class="section-label">06 · Contact</p>
         <h2>Let's talk data platforms.</h2>
-        <p>Email is the fastest way to reach me about roles, lakehouse architecture, or anything Iceberg.</p>
+        <p>Email is the fastest way to reach me about roles, platform architecture, or building data infrastructure that scales.</p>
         <a class="contact-email" href="mailto:jaggannagarir@gmail.com">jaggannagarir@gmail.com</a>
         <div class="cta-row">
           <a class="btn" href="https://linkedin.com/in/rjaggannagari" target="_blank" rel="noopener">LinkedIn</a>
